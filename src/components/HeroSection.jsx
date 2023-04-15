@@ -36,7 +36,8 @@ const HeroSection = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 9rem 0;
+  padding: 14rem 0;
+  margin-bottom:10rem;
   position: relative;
   width: 100%;
   height: 100%;
