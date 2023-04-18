@@ -2,6 +2,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import Services from "./Services";
+import Team from "./Teams"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team />} />
           <Route path="*" element={<Error />} />
         </Routes>
 
