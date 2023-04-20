@@ -2,7 +2,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
 import Services from "./Services";
-import Team from "./Teams"
+import Team from "./Teams";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,6 +10,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import Error from "./Error";
 import GoToTop from "./components/GoToTop";
+import Gallery from "./components/Gallery";
 
 const App = () => {
   const theme = {
