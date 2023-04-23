@@ -11,15 +11,15 @@ const Services = () => {
       <div className="container grid grid-three-column">
         <Card
           title="IIT Kanpur E-Summit"
-          image="https://media.istockphoto.com/id/1218737747/vector/learning-online-e-learning-video-call-chat-with-class-distance-education.jpg?s=612x612&w=is&k=20&c=m8IxACfRG-APe8kHKfVKxwim3f3JouCLfPU3pvxhYto="
+          image="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnR1cHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         ></Card>
         <Card
           title="HBTU Kanpur Appreciation"
-          image="https://media.licdn.com/dms/image/C4D22AQE6kEgGSnzTBw/feedshare-shrink_800/0/1669623565080?e=1684972800&v=beta&t=aSBNGRTIpTaBfBYDCsNq37k9YXM1RHoO85tipsHjLNE"
+          image="https://images.unsplash.com/photo-1582005450386-52b25f82d9bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN0YXJ0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         ></Card>
         <Card
           title="Startup in UP"
-          image="https://media.istockphoto.com/id/1218737747/vector/learning-online-e-learning-video-call-chat-with-class-distance-education.jpg?s=612x612&w=is&k=20&c=m8IxACfRG-APe8kHKfVKxwim3f3JouCLfPU3pvxhYto="
+          image="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN0YXJ0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         ></Card>
       </div>
     </Wrapper>
