@@ -23,8 +23,9 @@ const MainHeader = styled.header`
   align-items: center;
 
   .logo {
-    height: auto;
-    max-width: 30%;
+    height: 70px;
+    max-width: 100%;
+    margin-right: 100%;
   }
 `;
 
