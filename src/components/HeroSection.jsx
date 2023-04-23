@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import SubHeroSection from "./SubHero";
-import myGifImage from "../assets/gif.gif";
+import myGifImage from "../assets/hero-gif.gif";
 
 
 
@@ -39,7 +39,8 @@ const HeroSection = () => {
 
 const Wrapper = styled.section`
   padding: 14rem 0;
-  margin-bottom:10rem;
+  background-color: #f8f8f8;
+  // margin-bottom:10rem;
   position: relative;
   width: 100%;
   height: 100%;
@@ -82,7 +83,7 @@ const Wrapper = styled.section`
   }
 
   .hero-img {
-    max-width: 100%;
+    max-width: 130%;
     border-radius: 20px;
     // margin-left: 100px;
   }
