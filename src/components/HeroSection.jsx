@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import SubHeroSection from "./SubHero";
+import myGifImage from "../assets/gif.gif";
+
 
 
 const HeroSection = () => {
@@ -24,7 +26,7 @@ const HeroSection = () => {
         {/* for image  */}
         <div className="section-hero-image">
           <picture>
-            <img src="https://i.gifer.com/4E68.gif" alt="hero image" className="hero-img" />
+            <img src={myGifImage} alt="hero image" className="hero-img" />
           </picture>
         </div>
       </div>
@@ -80,7 +82,9 @@ const Wrapper = styled.section`
   }
 
   .hero-img {
-    max-width: 80%;
+    max-width: 100%;
+    border-radius: 20px;
+    // margin-left: 100px;
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
