@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import HeroSection from "./components/HeroSection";
+// import React, { useEffect } from "react";
+// import HeroSection from "./components/HeroSection";
 
 
-const About = () => {
-  return <HeroSection />;
-};
+// const About = () => {
+//   return <HeroSection />;
+// };
 
-export default About;
+// export default About;

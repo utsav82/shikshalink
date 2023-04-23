@@ -127,14 +127,14 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/about">
               About
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               className="navbar-link"
