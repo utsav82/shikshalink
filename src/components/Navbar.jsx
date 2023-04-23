@@ -155,6 +155,14 @@ const Navbar = () => {
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
+              to="/gallery">
+              Gallery
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
               to="/contact">
               Contact
             </NavLink>

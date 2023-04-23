@@ -50,9 +50,9 @@ const Contact = () => {
       <div className="container">
         <div className="contact-form">
           <form
-            action="" //add form link
+            action="https://formspree.io/f/mjvdjrgj" //add form link
             method="POST"
-            className="contact-inputs">
+            className="contact-inputs"> 
             <input
               type="text"
               name="username"
