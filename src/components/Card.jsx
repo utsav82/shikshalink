@@ -34,11 +34,13 @@ const ServiceCardDescription = styled.p`
 
 function ServiceCard(props) {
   return (
+    <a href={props.link}>
     <ServiceCardWrapper>
       <ServiceCardImage src={props.image} alt={props.title} />
       <ServiceCardTitle>{props.title}</ServiceCardTitle>
       <ServiceCardDescription>{props.description}</ServiceCardDescription>
     </ServiceCardWrapper>
+    </a>
   );
 }
 

@@ -11,6 +11,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import Error from "./Error";
 import GoToTop from "./components/GoToTop";
 import Gallery from "./Gallery";
+import Jobs from "./Jobs";
 
 const App = () => {
   const theme = {
@@ -48,6 +49,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Error />} />
+          <Route path="/jobs" element={<Jobs />} />
         </Routes>
 
         <Footer />
