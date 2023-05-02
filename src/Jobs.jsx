@@ -1,8 +1,33 @@
 import React from 'react'
 import styled from 'styled-components';
 import Card from './components/Card'
+import { useState } from 'react';
 
 function Jobs() {
+  const [ search, setSearch ] = useState("");
+  const [ temp, setTemp ] = useState();
+  const handleChange = (event) => {
+    
+    setTemp(event.target.value);
+    if(temp.length==1)
+    {
+      setSearch("");
+    }
+   
+  };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if(temp)
+    {
+    
+      setSearch(temp);
+    }
+    else
+    {
+      setSearch("");
+    }
+    
+  };
   const jobs = [
     {
       "title": "Cleaner",
@@ -35,7 +60,9 @@ function Jobs() {
         <div className="container">
           <h1>Find Jobs for You</h1>
           <div class="search__container">
-            <input className="search__input" type="text" placeholder="Search" />
+            <form onSubmit={handleSubmit}>
+            <input className="search__input" type="text" placeholder="Search" onChange={handleChange}  />
+            </form>
           </div>
         </div>
       </div>
@@ -66,7 +93,12 @@ function Jobs() {
       <div className="jobs | container" style={{ marginTop: "5em" }}>
 
 
-        {jobs.map(job => (
+        {jobs.filter((job) => {
+          if (search!=="") {
+            return job.title.toLowerCase() === search.toLowerCase()
+          }
+          return true;
+        }).map(job => (
           <Card
             title={job.title}
             description={job.description}
