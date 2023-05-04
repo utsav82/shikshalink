@@ -171,6 +171,8 @@ const ServiceItem = styled.div`
   margin-bottom: 40px;
 
   @media (max-width: 768px) {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     width: 100%;
   }
 `;

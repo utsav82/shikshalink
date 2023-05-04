@@ -38,12 +38,15 @@ const HeroSection = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 14rem 0;
+  padding: auto;
+
   background-color: #f8f8f8;
-  // margin-bottom:10rem;
-  position: relative;
-  width: 100%;
+   padding-top:10rem;
+   padding-bottom:10rem;
   height: 100%;
+  width: 100%;
+  position: relative;
+
   .section-hero-data {
     display: flex;
     flex-direction: column;
@@ -76,6 +79,7 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   picture {
@@ -83,7 +87,7 @@ const Wrapper = styled.section`
   }
 
   .hero-img {
-    max-width: 130%;
+    max-width: 100%;
     border-radius: 20px;
     // margin-left: 100px;
   }

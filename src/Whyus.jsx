@@ -37,6 +37,7 @@ import styled from 'styled-components';
 
 const WhyUsSection = () => {
   return (
+     
     <WhyUsWrapper>
       <SectionHeading>Why ShikshaLink?</SectionHeading>
       <WhyUsList>
@@ -79,13 +80,16 @@ const SectionHeading = styled.h2`
   @media (max-width: 768px) {
     font-size: 32px;
     margin-bottom: 30px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 `;
 
 const WhyUsList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 
@@ -112,6 +116,8 @@ const WhyUsItem = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 `;
 
