@@ -15,7 +15,9 @@ function Jobs() {
     { value: 'teacher', label: 'Teacher' }
   ]
   const handleSubmit = (event) => {
-    myRef.current.scrollIntoView()
+    setTimeout(() => myRef.current.scrollIntoView({
+      behavior: "smooth"
+    }), 100);
     if (event) {
 
       setSearch(event.value);
@@ -58,10 +60,10 @@ function Jobs() {
         <div className="container">
           <h1>Find Jobs for You</h1>
           <div className="search__container">
-           
-              {/* <input className="search__input" type="text" placeholder="Search" onChange={handleChange}  /> */}
-              <Select onChange={handleSubmit} options={options} isClearable isSearchable unstyled className='search__input' classNamePrefix="react-select" placeholder="Search..." />
-           
+
+            {/* <input className="search__input" type="text" placeholder="Search" onChange={handleChange}  /> */}
+            <Select onChange={handleSubmit} options={options} isClearable isSearchable unstyled className='search__input' classNamePrefix="react-select" placeholder="Search..." />
+
           </div>
         </div>
       </div>
