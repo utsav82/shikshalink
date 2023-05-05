@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Card from "./components/Card";
 import { useState } from "react";
-// import Select from "react-select";
+import Select from "react-select";
 import { useRef } from "react";
 
 function Jobs() {

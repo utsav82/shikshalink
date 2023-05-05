@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 const MainHeading = styled.h1`
   color: RGB(3, 4, 94);
-  display: flex;
+ 
   margin-top: 30px;
   font-size: 40px;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding-bottom: 16px;
+  line-height: 36px;
 `;
 
 const Termsbox = styled.div`
@@ -18,6 +18,7 @@ const Termsbox = styled.div`
   background-color: #fff;
   width: 100%;
   line-height: 25px;
+  padding: 2.5rem;
 `;
 
 const Arrow = styled.span`
