@@ -122,24 +122,28 @@ const Service = () => {
       <SectionHeading>Our Services</SectionHeading>
       <ServicesList>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Web Design" />
-          <ServiceTitle>Web Design</ServiceTitle>
-          <ServiceDescription>We create modern, responsive websites that are optimized for performance and user experience.</ServiceDescription>
+          <ServiceIcon src="https://plus.unsplash.com/premium_photo-1661773222002-0c95fc09253a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8U2Nob29sJTIwRXZlbnRzJTIwSW5kaWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Web Design" />
+          <ServiceTitle>Events</ServiceTitle>
+          <ServiceDescription>We provide a common platform for the institutions to host eventsitution', contests &
+Olympiads with effective publicity.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Web Development" />
-          <ServiceTitle>Web Development</ServiceTitle>
-          <ServiceDescription>We build custom web applications using the latest technologies and best practices to meet your unique business needs.</ServiceDescription>
+          <ServiceIcon src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8U2Nob29sJTIwQWRtaXNzaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Web Development" />
+          <ServiceTitle>Admission & schemes</ServiceTitle>
+          <ServiceDescription>We have simplified the admission process in various institutions with the proper
+inclusion of scholarships & government schemes incentives.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="UI/UX Design" />
-          <ServiceTitle>UI/UX Design</ServiceTitle>
-          <ServiceDescription>We design intuitive, user-friendly interfaces that enhance the user experience and drive engagement.</ServiceDescription>
+          <ServiceIcon src="https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Sm9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="UI/UX Design" />
+          <ServiceTitle>Jobs</ServiceTitle>
+          <ServiceDescription>We help institutions to hire the right people for the required jobs through our
+platform.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1545670723-196ed0954986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Mobile App Development" />
-          <ServiceTitle>Mobile App Development</ServiceTitle>
-          <ServiceDescription>We develop native mobile apps for iOS and Android platforms that deliver seamless experiences and high performance.</ServiceDescription>
+          <ServiceIcon src="https://images.unsplash.com/photo-1502434101797-234727574898?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fEFkdmVydGlzZW1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="Mobile App Development" />
+          <ServiceTitle>Advertisement</ServiceTitle>
+          <ServiceDescription>We utilize different advertising channels to increase your inst awareness & credibility
+among the target audience.</ServiceDescription>
         </ServiceItem>
       </ServicesList>
     </OurServicesWrapper>
