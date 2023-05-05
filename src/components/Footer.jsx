@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import { NavLink } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 function handleclick() {
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 }
@@ -10,7 +10,10 @@ const FB = () => {
   window.open("https://www.facebook.com/", "_blank");
 };
 const IG = () => {
-  window.open("https://instagram.com/shikshalink?igshid=ZDdkNTZiNTM=", "_blank");
+  window.open(
+    "https://instagram.com/shikshalink?igshid=ZDdkNTZiNTM=",
+    "_blank"
+  );
 };
 const LI = () => {
   window.open("https://www.linkedin.com/company/shikshalink/", "_blank");
@@ -21,7 +24,6 @@ const YT = () => {
 
 const Footer = () => {
   return (
-    
     <Wrapper>
       <section className="contact-short">
         <div className="grid grid-two-column">
@@ -66,16 +68,16 @@ const Footer = () => {
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div>
-                <FaFacebook className="icons" onClick={FB}/>
+                <FaFacebook className="icons" onClick={FB} />
               </div>
               <div>
-                <FaLinkedin className="icons" onClick={LI}/>
+                <FaLinkedin className="icons" onClick={LI} />
               </div>
               <div>
-                <FaYoutube className="icons" onClick={YT}/>
+                <FaYoutube className="icons" onClick={YT} />
               </div>
               <div>
-                <FaInstagram className="icons" onClick={IG}/>
+                <FaInstagram className="icons" onClick={IG} />
               </div>
             </div>
           </div>
@@ -94,8 +96,7 @@ const Footer = () => {
           <div className="container grid grid-two-column">
             <p>@{new Date().getFullYear()} Shikshalink. All Rights Reserved</p>
             <div>
-              <p>PRIVACY POLICY</p>
-              <p>TERMS & CONDITIONS</p>
+              <NavLink to="/terms">TERMS & CONDITIONS</NavLink>
             </div>
           </div>
         </div>

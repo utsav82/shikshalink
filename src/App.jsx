@@ -12,6 +12,7 @@ import Error from "./Error";
 import GoToTop from "./components/GoToTop";
 import Gallery from "./Gallery";
 import Jobs from "./Jobs";
+import Terms from "./Terms";
 
 const App = () => {
   const theme = {
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Error />} />
           <Route path="/jobs" element={<Jobs />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
 
         <Footer />
