@@ -54,6 +54,7 @@ const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
   }
 
   .btn {
@@ -65,11 +66,13 @@ const Wrapper = styled.section`
     font-weight: 500;
     font-size: 1.5rem;
     color: ${({ theme }) => theme.colors.helper};
+    
   }
 
   .hero-heading {
     text-transform: uppercase;
     font-size: 6.4rem;
+    
   }
 
   .hero-para {
@@ -99,6 +102,12 @@ const Wrapper = styled.section`
     .grid {
       gap: 7.2rem;
     }
+    .hero-heading {
+    
+    font-size: 5.8rem;
+  
+  
+  }
   }
 `;
 

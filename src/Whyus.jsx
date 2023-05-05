@@ -306,7 +306,13 @@ background-color: #f8f8f8;
 
 const SectionContainer = styled.section`
   background-color: #f8f8f8;
-  padding: 40px 0;
+  padding: 40px 40px;
+  
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const SubSectionContainer = styled.div`
@@ -340,6 +346,8 @@ const TickMark = styled.span`
   margin-right: 10px;
   color: green;
 `;
+
+
 
 const WhyShikshaLink = () => {
   return (
