@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Contact = () => {
   const Wrapper = styled.section`
     padding: 9rem 0 5rem 0;
+    background-color: #f8f8f8;
 
     .container {
       margin-top: 6rem;
