@@ -72,7 +72,7 @@ const Wrapper = styled.section`
   .hero-heading {
     text-transform: uppercase;
     font-size: 6.4rem;
-    
+    font-weight: 650;
   }
 
   .hero-para {
