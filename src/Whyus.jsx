@@ -293,18 +293,138 @@
 
 // export default WhyUsSection;
 
+
+
+
+
+
+// import React from 'react';
+// import styled from 'styled-components';
+
+// const MainHeading = styled.h1`
+// font-size: 36px;
+// font-weight: bold;
+// // margin-bottom: 40px;
+// text-align: center;
+// background-color: #f8f8f8;
+// `;
+
+// const SectionContainer = styled.section`
+//   background-color: #f8f8f8;
+//   padding: 40px 0;
+// `;
+
+// const SubSectionContainer = styled.div`
+//   margin: 0 auto;
+//   max-width: 800px;
+//   margin-top: 30px;
+//   margin-bottom: 50px;
+// `;
+
+// const SubSectionHeading = styled.h2`
+//   font-size: 28px;
+//   text-align: center;
+//   margin-bottom: 40px;
+// `;
+
+// const BulletList = styled.ul`
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// `;
+
+// const BulletListItem = styled.li`
+//   display: flex;
+//   align-items: center;
+//   font-size: 18px;
+//   margin-bottom: 10px;
+// `;
+
+// const TickMark = styled.span`
+//   font-size: 22px;
+//   margin-right: 10px;
+//   color: green;
+// `;
+
+// const WhyShikshaLink = () => {
+//   return (
+//     <div>
+//      <MainHeading>Why ShikshaLink</MainHeading>
+//       <SectionContainer>
+//         <SubSectionContainer>
+//           <SubSectionHeading>For Students</SubSectionHeading>
+//           <BulletList>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Easily Accessible Contest
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark>Regional Schools at one place
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Easy Admission Process
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark>Flexible Test Process
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark>Scholarships Incentives
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Exposure to Events and Olympiads and many more...
+//             </BulletListItem>
+//           </BulletList>
+//         </SubSectionContainer>
+    
+//         <SubSectionContainer>
+//           <SubSectionHeading>For Schools</SubSectionHeading>
+//           <BulletList>
+            
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Advertisements and Promotions
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Direct Mail Advertisements
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Structured Platform for Events
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark>Opportunity to Identify Potential Students
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Easy Access to Government Schemes
+//             </BulletListItem>
+//             <BulletListItem>
+//               <TickMark>&#10003;</TickMark> Social Media Marketing and many more...
+//             </BulletListItem>
+//           </BulletList>
+//         </SubSectionContainer>
+//       </SectionContainer>
+//     </div>
+//   );
+// };
+
+// export default WhyShikshaLink;
+
+
 import React from 'react';
 import styled from 'styled-components';
 
 const MainHeading = styled.h1`
-font-size: 36px;
-font-weight: bold;
-// margin-bottom: 40px;
-text-align: center;
-background-color: #f8f8f8;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f8f8f8;
+`;
+
+const SectionWrapper = styled.div`
+  display: flex;
+//   justify-content: space-between;
+// justify-content: space-around;
 `;
 
 const SectionContainer = styled.section`
+  width: 49%;
   background-color: #f8f8f8;
   padding: 40px 40px;
   
@@ -320,12 +440,14 @@ const SubSectionContainer = styled.div`
   max-width: 800px;
   margin-top: 30px;
   margin-bottom: 50px;
+  margin-left: 100px;
 `;
 
 const SubSectionHeading = styled.h2`
   font-size: 28px;
   text-align: center;
   margin-bottom: 40px;
+  margin-left: -300px;
 `;
 
 const BulletList = styled.ul`
@@ -352,59 +474,61 @@ const TickMark = styled.span`
 const WhyShikshaLink = () => {
   return (
     <div>
-     <MainHeading>Why ShikshaLink</MainHeading>
-      <SectionContainer>
-        <SubSectionContainer>
-          <SubSectionHeading>For Students</SubSectionHeading>
-          <BulletList>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Easily Accessible Contest
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark>Regional Schools at one place
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Easy Admission Process
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark>Flexible Test Process
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark>Scholarships Incentives
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Exposure to Events and Olympiads and many more...
-            </BulletListItem>
-          </BulletList>
-        </SubSectionContainer>
+      <MainHeading>Why ShikshaLink</MainHeading>
+      <SectionWrapper>
+        <SectionContainer>
+          <SubSectionContainer>
+            <SubSectionHeading>For Students</SubSectionHeading>
+            <BulletList>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Easily Accessible Contest
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Regional Schools at one place
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Easy Admission Process
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Flexible Test Process
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Scholarships Incentives
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Exposure to Events and Olympiads and many more...
+              </BulletListItem>
+            </BulletList>
+          </SubSectionContainer>
+        </SectionContainer>
     
-        <SubSectionContainer>
-          <SubSectionHeading>For Schools</SubSectionHeading>
-          <BulletList>
-            
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Advertisements and Promotions
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Direct Mail Advertisements
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Structured Platform for Events
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark>Opportunity to Identify Potential Students
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Easy Access to Government Schemes
-            </BulletListItem>
-            <BulletListItem>
-              <TickMark>&#10003;</TickMark> Social Media Marketing and many more...
-            </BulletListItem>
-          </BulletList>
-        </SubSectionContainer>
-      </SectionContainer>
+        <SectionContainer>
+          <SubSectionContainer>
+            <SubSectionHeading>For Schools</SubSectionHeading>
+            <BulletList>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Advertisements and Promotions
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Direct Mail Advertisements
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Structured Platform for Events
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Opportunity to Identify Potential Students
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Easy Access to Government Schemes
+              </BulletListItem>
+              <BulletListItem>
+                <TickMark>&#10003;</TickMark> Social Media Marketing and many more...
+              </BulletListItem>
+            </BulletList>
+          </SubSectionContainer>
+        </SectionContainer>
+      </SectionWrapper>
     </div>
   );
 };
-
 export default WhyShikshaLink;

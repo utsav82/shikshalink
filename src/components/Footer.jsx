@@ -16,7 +16,7 @@ const LI = () => {
   window.open("https://www.linkedin.com/company/shikshalink/", "_blank");
 };
 const YT = () => {
-  window.open("https://www.youtube.com/", "_blank");
+  window.open("https://youtube.com/@Shikshalink", "_blank");
 };
 
 const Footer = () => {
