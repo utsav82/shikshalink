@@ -7,16 +7,16 @@ function handleclick() {
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 }
 const FB = () => {
-  window.open("https://www.instagram.com/", "_blank");
+  window.open("https://www.facebook.com/", "_blank");
 };
 const IG = () => {
-  window.open("https://www.instagram.com/", "_blank");
+  window.open("https://instagram.com/shikshalink?igshid=ZDdkNTZiNTM=", "_blank");
 };
 const LI = () => {
-  window.open("https://www.instagram.com/", "_blank");
+  window.open("https://www.linkedin.com/company/shikshalink/", "_blank");
 };
 const YT = () => {
-  window.open("https://www.instagram.com/", "_blank");
+  window.open("https://www.youtube.com/", "_blank");
 };
 
 const Footer = () => {
