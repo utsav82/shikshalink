@@ -186,109 +186,217 @@
 // export default WhyUsSection;
 
 
+// import React from 'react';
+// import styled from 'styled-components';
+
+// const WhyUsSection = () => {
+//   return (
+//     <Container>
+//       <Heading>Why ShikshaLink</Heading>
+//       <Row>
+//         <Col>
+//           <Title>For Students</Title>
+//           <PointList>
+//             <Point>Easily Accessible Contest</Point>
+//             <Point>Regional School at one place</Point>
+//             <Point> Easy Admission process</Point>
+//             <Point>Scholarships Incentives</Point>
+//             <Point>Exposure to Events and Olympiads</Point>
+//           </PointList>
+//         </Col>
+//         <Col>
+//           <Title>For Schools</Title>
+//           <PointList>
+//             <Point>Advertisements and Promotions</Point>
+//             <Point>Direct Mail Advertisements</Point>
+//             <Point>Structured Platform for Events</Point>
+//             <Point>Identify Potential Students</Point>
+//             <Point>Easy Access to Government Schemes</Point>
+//           </PointList>
+//         </Col>
+//       </Row>
+//     </Container>
+//   );
+// };
+
+// const Container = styled.div`
+// //   margin: 50px 0;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   background-color: #f8f8f8;
+// `;
+
+// const Heading = styled.h2`
+//   font-size: 48px;
+//   text-align: center;
+//   margin-bottom: 50px;
+// `;
+
+// const Row = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-start;
+//   margin-top: 50px;
+//   margin-bottom: 50px;
+//   @media (max-width: 768px) {
+//     flex-direction: column;
+//   }
+// `;
+
+// const Col = styled.div`
+//   width: 45%;
+//   text-align: center;
+//   margin: 0 10px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   align-items: center;
+//   @media (max-width: 768px) {
+//     width: 100%;
+//     margin: 0;
+//     margin-bottom: 30px;
+//   }
+// `;
+
+// const Title = styled.h3`
+//   font-size: 36px;
+//   margin-bottom: 30px;
+// `;
+
+// const PointList = styled.ul`
+//   list-style-type: none;
+//   padding: 0;
+//   margin: 0;
+//   flex: 1;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+// `;
+
+// const Point = styled.li`
+//   margin-bottom: 20px;
+//   font-size: 20px;
+//   display: flex;
+//   align-items: center;
+//   &:before {
+//     content: '•';
+//     margin-right: 10px;
+//     color: #007bff;
+//     font-weight: bold;
+//     display: inline-block;
+//     width: 1em;
+//     text-align: center;
+//   }
+// `;
+
+// export default WhyUsSection;
+
 import React from 'react';
 import styled from 'styled-components';
 
-const WhyUsSection = () => {
+const MainHeading = styled.h1`
+font-size: 36px;
+font-weight: bold;
+// margin-bottom: 40px;
+text-align: center;
+background-color: #f8f8f8;
+`;
+
+const SectionContainer = styled.section`
+  background-color: #f8f8f8;
+  padding: 40px 0;
+`;
+
+const SubSectionContainer = styled.div`
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+`;
+
+const SubSectionHeading = styled.h2`
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+`;
+
+const BulletList = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 0;
+`;
+
+const BulletListItem = styled.li`
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+`;
+
+const TickMark = styled.span`
+  font-size: 22px;
+  margin-right: 10px;
+  color: green;
+`;
+
+const WhyShikshaLink = () => {
   return (
-    <Container>
-      <Heading>Why ShikshaLink</Heading>
-      <Row>
-        <Col>
-          <Title>For Students</Title>
-          <PointList>
-            <Point>Easily Accessible Contest</Point>
-            <Point>Regional School at one place</Point>
-            <Point> Easy Admission process</Point>
-            <Point>Scholarships Incentives</Point>
-            <Point>Exposure to Events and Olympiads</Point>
-          </PointList>
-        </Col>
-        <Col>
-          <Title>For Schools</Title>
-          <PointList>
-            <Point>Advertisements and Promotions</Point>
-            <Point>Direct Mail Advertisements</Point>
-            <Point>Structured Platform for Events</Point>
-            <Point>Identify Potential Students</Point>
-            <Point>Easy Access to Government Schemes</Point>
-          </PointList>
-        </Col>
-      </Row>
-    </Container>
+    <div>
+     <MainHeading>Why ShikshaLink</MainHeading>
+      <SectionContainer>
+        <SubSectionContainer>
+          <SubSectionHeading>For Students</SubSectionHeading>
+          <BulletList>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Easily Accessible Contest
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark>Regional Schools at one place
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Easy Admission Process
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark>Flexible Test Process
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark>Scholarships Incentives
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Exposure to Events and Olympiads and many more...
+            </BulletListItem>
+          </BulletList>
+        </SubSectionContainer>
+    
+        <SubSectionContainer>
+          <SubSectionHeading>For Schools</SubSectionHeading>
+          <BulletList>
+            
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Advertisements and Promotions
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Direct Mail Advertisements
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Structured Platform for Events
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark>Opportunity to Identify Potential Students
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Easy Access to Government Schemes
+            </BulletListItem>
+            <BulletListItem>
+              <TickMark>&#10003;</TickMark> Social Media Marketing and many more...
+            </BulletListItem>
+          </BulletList>
+        </SubSectionContainer>
+      </SectionContainer>
+    </div>
   );
 };
 
-const Container = styled.div`
-//   margin: 50px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f8f8f8;
-`;
-
-const Heading = styled.h2`
-  font-size: 48px;
-  text-align: center;
-  margin-bottom: 50px;
-`;
-
-const Row = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`;
-
-const Col = styled.div`
-  width: 45%;
-  text-align: center;
-  margin: 0 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  @media (max-width: 768px) {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 30px;
-  }
-`;
-
-const Title = styled.h3`
-  font-size: 36px;
-  margin-bottom: 30px;
-`;
-
-const PointList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-`;
-
-const Point = styled.li`
-  margin-bottom: 20px;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  &:before {
-    content: '•';
-    margin-right: 10px;
-    color: #007bff;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    text-align: center;
-  }
-`;
-
-export default WhyUsSection;
+export default WhyShikshaLink;
