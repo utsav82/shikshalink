@@ -6,6 +6,9 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 function handleclick() {
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 }
+const handleClick = () => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+};
 const FB = () => {
   window.open("https://www.facebook.com/", "_blank");
 };
@@ -96,7 +99,7 @@ const Footer = () => {
           <div className="container grid grid-two-column">
             <p>@{new Date().getFullYear()} Shikshalink. All Rights Reserved</p>
             <div>
-              <NavLink to="/terms">TERMS & CONDITIONS</NavLink>
+              <NavLink to="/terms" onClick={handleClick}>TERMS & CONDITIONS</NavLink>
             </div>
           </div>
         </div>
