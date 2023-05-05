@@ -16,11 +16,14 @@ const HeroSection = () => {
         <div className="section-hero-data">
           <h1 className="hero-heading">Shikshalink</h1>
           <p className="hero-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti qui facilis, repellat labore quos. Cupiditate eveniet vitae delectus minima voluptates accusantium autem id nihil dicta nemo? Consequatur, accusamus quidem.
+          {/* <h5 className="hero-heading">own your expectation with Shikshalink</h5> */}
+          Inspired by came to spread of education shikshalink aspires to establish an effective
+          connection between students and schools to promote the successful utilization of
+          academic resources
           </p>
-          <Button className="btn hireme-btn">
+          {/* <Button className="btn hireme-btn">
             <NavLink to="/contact">Contact</NavLink>
-          </Button>
+          </Button> */}
         </div>
 
         {/* for image  */}
