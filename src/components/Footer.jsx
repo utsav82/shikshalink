@@ -2,12 +2,26 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import { NavLink } from "react-router-dom";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
 function handleclick() {
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 }
+const FB = () => {
+  window.open("https://www.instagram.com/", "_blank");
+};
+const IG = () => {
+  window.open("https://www.instagram.com/", "_blank");
+};
+const LI = () => {
+  window.open("https://www.instagram.com/", "_blank");
+};
+const YT = () => {
+  window.open("https://www.instagram.com/", "_blank");
+};
+
 const Footer = () => {
   return (
+    
     <Wrapper>
       <section className="contact-short">
         <div className="grid grid-two-column">
@@ -30,7 +44,7 @@ const Footer = () => {
         <div className="container grid grid-four-column">
           <div className="footer-about">
             <h3>ShikshaLink</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Own your expectation with Shikshalink</p>
           </div>
 
           {/* 2nd column */}
@@ -52,10 +66,16 @@ const Footer = () => {
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div>
-                <FaFacebook className="icons" />
+                <FaFacebook className="icons" onClick={FB}/>
               </div>
               <div>
-                <FaInstagram className="icons" />
+                <FaLinkedin className="icons" onClick={LI}/>
+              </div>
+              <div>
+                <FaYoutube className="icons" onClick={YT}/>
+              </div>
+              <div>
+                <FaInstagram className="icons" onClick={IG}/>
               </div>
             </div>
           </div>
@@ -63,7 +83,8 @@ const Footer = () => {
           {/* 4th column  */}
           <div className="footer-contact">
             <h3>Call Us</h3>
-            <h3>+91 12345678978</h3>
+            <a href="tel:+91 81123 74987"> +91 81123 74987</a>
+            {/* <h3>+91 81123 74987</h3> */}
           </div>
         </div>
 
@@ -105,6 +126,12 @@ const Wrapper = styled.section`
     h3 {
       color: ${({ theme }) => theme.colors.hr};
       margin-bottom: 2.4rem;
+    }
+
+    a {
+      color: ${({ theme }) => theme.colors.hr};
+      margin-bottom: 2.4rem;
+      font-size: 1.7rem;
     }
     p {
       color: ${({ theme }) => theme.colors.white};
