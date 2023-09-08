@@ -122,25 +122,25 @@ const Service = () => {
       <SectionHeading>Our Services</SectionHeading>
       <ServicesList>
         <ServiceItem>
-          <ServiceIcon src="https://plus.unsplash.com/premium_photo-1661773222002-0c95fc09253a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8U2Nob29sJTIwRXZlbnRzJTIwSW5kaWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Web Design" />
+          <ServiceIcon src="src\assets\events.jpeg" alt="Events" />
           <ServiceTitle>Events</ServiceTitle>
-          <ServiceDescription>We provide a common platform for the institutions to host eventsitution', contests &
+          <ServiceDescription>We provide a common platform for the institutions to host events, contests &
 Olympiads with effective publicity.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8U2Nob29sJTIwQWRtaXNzaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Web Development" />
+          <ServiceIcon src="src\assets\admission.jpeg" alt="Admission" />
           <ServiceTitle>Admission & schemes</ServiceTitle>
           <ServiceDescription>We have simplified the admission process in various institutions with the proper
 inclusion of scholarships & government schemes incentives.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Sm9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="UI/UX Design" />
+          <ServiceIcon src="src\assets\jobs.jpeg" alt="Jobs" />
           <ServiceTitle>Jobs</ServiceTitle>
           <ServiceDescription>We help institutions to hire the right people for the required jobs through our
 platform.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="https://images.unsplash.com/photo-1502434101797-234727574898?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fEFkdmVydGlzZW1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="Mobile App Development" />
+          <ServiceIcon src="src\assets\advertisment.jpeg" alt="Advertisement" />
           <ServiceTitle>Advertisement</ServiceTitle>
           <ServiceDescription>We utilize different advertising channels to increase your inst awareness & credibility
 among the target audience.</ServiceDescription>

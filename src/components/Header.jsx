@@ -26,7 +26,15 @@ const MainHeader = styled.header`
     height: 70px;
     max-width: 100%;
     margin-right: 100%;
+
   }
+  @media only screen and (max-width: 600px){
+    .logo {
+    height: 50px;
+
+
+  }
+}
 `;
 
 export default Header;

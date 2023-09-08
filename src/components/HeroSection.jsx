@@ -8,18 +8,17 @@ import myGifImage from "../assets/hero-gif.gif";
 
 
 const HeroSection = () => {
- 
+
 
   return (
     <Wrapper>
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
           <h1 className="hero-heading">Shikshalink</h1>
+          <h1 className="hero-subheading">Where Every Child's Potential Finds its Voice</h1>
           <p className="hero-para">
-          {/* <h5 className="hero-heading">own your expectation with Shikshalink</h5> */}
-          Inspired by came to spread of education shikshalink aspires to establish an effective
-          connection between students and schools to promote the successful utilization of
-          academic resources
+            {/* <h5 className="hero-heading">own your expectation with Shikshalink</h5> */}
+            Inspired to spread education, Shikshalink aspires to establish an effective connection between students and schools to promote the successful utilization of academic resources
           </p>
           {/* <Button className="btn hireme-btn">
             <NavLink to="/contact">Contact</NavLink>
@@ -34,7 +33,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-     
+
 
     </Wrapper>
   );
@@ -73,6 +72,11 @@ const Wrapper = styled.section`
     text-transform: uppercase;
     font-size: 6.4rem;
     font-weight: 650;
+  }
+
+  .hero-subheading {
+    font-size: 2.5rem;
+    font-weight: 550;
   }
 
   .hero-para {
