@@ -134,7 +134,7 @@ Olympiads with effective publicity.</ServiceDescription>
 inclusion of scholarships & government schemes incentives.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="src\assets\jobs.jpeg" alt="Jobs" />
+          <ServiceIcon src="https://images.unsplash.com/photo-1459180129673-eefb56f79b45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Sm9ic3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Jobs" />
           <ServiceTitle>Jobs</ServiceTitle>
           <ServiceDescription>We help institutions to hire the right people for the required jobs through our
 platform.</ServiceDescription>
