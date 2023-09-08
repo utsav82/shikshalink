@@ -11,14 +11,14 @@ const Services = () => {
       <div className="container grid grid-three-column">
         <Card
           title="IIT Kanpur E-Summit"
-          image="https://cache.careers360.mobi/media/article_images/2022/12/27/iit-kanpur-official-website-featured-image.jpg"
+          image="src/assets/events.jpeg"
         ></Card>
         <Card
           title="HBTU Kanpur Appreciation"
           image="https://img.collegepravesh.com/2016/01/HBTI-Kanpur.jpg"
         ></Card>
         <Card
-          title="Startup in UP"
+          title="Ed-Tech Start-up"
           image="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN0YXJ0dXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         ></Card>
       </div>

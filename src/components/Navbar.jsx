@@ -151,14 +151,14 @@ const Navbar = () => {
               Jobs
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               className="navbar-link"
               onClick={() => setOpenMenu(false)}
               to="/team">
               Team
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               className="navbar-link"
