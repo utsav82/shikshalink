@@ -11,7 +11,7 @@ const Services = () => {
       <div className="container grid grid-three-column">
         <Card
           title="IIT Kanpur E-Summit"
-          image="src/assets/events.jpeg"
+          image="./src/assets/events.jpeg"
         ></Card>
         <Card
           title="HBTU Kanpur Appreciation"

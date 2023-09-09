@@ -51,7 +51,7 @@ function Jobs() {
         "We are looking for an experienced Manager to lead and manage our team effectively.",
       link: "https://example.com/manager-job",
       image:
-        "src/assets/manager.jpeg",
+        "./src/assets/manager.jpeg",
     },
     {
       title: "Teacher",
