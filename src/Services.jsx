@@ -122,13 +122,13 @@ const Service = () => {
       <SectionHeading>Our Services</SectionHeading>
       <ServicesList>
         <ServiceItem>
-          <ServiceIcon src="./src/assets/events.jpeg" alt="Events" />
+          <ServiceIcon src="images/events.jpeg" alt="Events" />
           <ServiceTitle>Events</ServiceTitle>
           <ServiceDescription>We provide a common platform for the institutions to host events, contests &
 Olympiads with effective publicity.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="./src/assets/admission.jpeg" alt="Admission" />
+          <ServiceIcon src="images/admission.jpeg" alt="Admission" />
           <ServiceTitle>Admission & schemes</ServiceTitle>
           <ServiceDescription>We have simplified the admission process in various institutions with the proper
 inclusion of scholarships & government schemes incentives.</ServiceDescription>
@@ -140,7 +140,7 @@ inclusion of scholarships & government schemes incentives.</ServiceDescription>
 platform.</ServiceDescription>
         </ServiceItem>
         <ServiceItem>
-          <ServiceIcon src="./src/assets/advertisment.jpeg" alt="Advertisement" />
+          <ServiceIcon src="images/advertisment.jpeg" alt="Advertisement" />
           <ServiceTitle>Advertisement</ServiceTitle>
           <ServiceDescription>We utilize different advertising channels to increase your inst awareness & credibility
 among the target audience.</ServiceDescription>
